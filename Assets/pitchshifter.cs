@@ -58,10 +58,12 @@ public class pitchshifter : MonoBehaviour
         
     }
     void OnTriggerEnter(Collider other){
-        other.gameObject.GetComponent<AudioSource>().PlayOneShot(successAudioClip);
-        success = true;
-        audioSource.pitch = 1.0f;
-        
+        if (!success)
+        {
+            other.gameObject.GetComponent<AudioSource>().PlayOneShot(successAudioClip);
+            success = true;
+            audioSource.pitch = 1.0f;
+        }
     }
     void OnTriggerStay(Collider other){
         
