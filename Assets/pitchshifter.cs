@@ -8,6 +8,7 @@ public class pitchshifter : MonoBehaviour
     public GameObject playerCamera;
     public float pitchStartValue;
     public float pitchEndValue;
+    public float pitchValueAfterGoal = 1.0f;
     public AudioClip successAudioClip;
 
 
@@ -62,7 +63,7 @@ public class pitchshifter : MonoBehaviour
         {
             other.gameObject.GetComponent<AudioSource>().PlayOneShot(successAudioClip);
             success = true;
-            audioSource.pitch = 1.0f;
+            audioSource.pitch = pitchValueAfterGoal;
         }
     }
     void OnTriggerStay(Collider other){
