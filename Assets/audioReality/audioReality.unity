@@ -355,11 +355,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb5809e2d9d64b8b9b7e6fc5d9df693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
+  playerCamera: {fileID: 7}
   pitchStartValue: 0.2
   pitchEndValue: 2
   pitchValueAfterGoal: 1
-  successAudioClip: {fileID: 8300000, guid: 18be2f0c79dee4b5e866d1a7856228df, type: 3}
+  successAudioClip: {fileID: 8300000, guid: 4a04828ff754b40e28805862e22f86f4, type: 3}
 --- !u!82 &78591985
 AudioSource:
   m_ObjectHideFlags: 0
@@ -639,7 +639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 11e6df8069c4d44aa8b4ad85cd80ee02, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: -2.62
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 11e6df8069c4d44aa8b4ad85cd80ee02, type: 3}
       propertyPath: m_LocalPosition.z
@@ -850,11 +850,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb5809e2d9d64b8b9b7e6fc5d9df693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
+  playerCamera: {fileID: 7}
   pitchStartValue: 0.2
   pitchEndValue: 1.5
   pitchValueAfterGoal: 1
-  successAudioClip: {fileID: 8300000, guid: 18be2f0c79dee4b5e866d1a7856228df, type: 3}
+  successAudioClip: {fileID: 8300000, guid: 4a04828ff754b40e28805862e22f86f4, type: 3}
 --- !u!82 &240162875
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1150,11 +1150,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb5809e2d9d64b8b9b7e6fc5d9df693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
+  playerCamera: {fileID: 7}
   pitchStartValue: 0.2
   pitchEndValue: 2
   pitchValueAfterGoal: 1
-  successAudioClip: {fileID: 8300000, guid: 18be2f0c79dee4b5e866d1a7856228df, type: 3}
+  successAudioClip: {fileID: 8300000, guid: 4a04828ff754b40e28805862e22f86f4, type: 3}
 --- !u!82 &443207376
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1841,11 +1841,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb5809e2d9d64b8b9b7e6fc5d9df693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
+  playerCamera: {fileID: 7}
   pitchStartValue: 0.2
   pitchEndValue: 2
   pitchValueAfterGoal: 1
-  successAudioClip: {fileID: 8300000, guid: 18be2f0c79dee4b5e866d1a7856228df, type: 3}
+  successAudioClip: {fileID: 8300000, guid: 4a04828ff754b40e28805862e22f86f4, type: 3}
 --- !u!82 &662123640
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2431,8 +2431,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.186
+  m_Pitch: 0.5
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -2548,11 +2548,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb5809e2d9d64b8b9b7e6fc5d9df693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
+  playerCamera: {fileID: 7}
   pitchStartValue: 0.2
   pitchEndValue: 2
   pitchValueAfterGoal: 1
-  successAudioClip: {fileID: 8300000, guid: 18be2f0c79dee4b5e866d1a7856228df, type: 3}
+  successAudioClip: {fileID: 8300000, guid: 4a04828ff754b40e28805862e22f86f4, type: 3}
 --- !u!82 &839522307
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3436,11 +3436,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb5809e2d9d64b8b9b7e6fc5d9df693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
+  playerCamera: {fileID: 7}
   pitchStartValue: 0.2
   pitchEndValue: 2
   pitchValueAfterGoal: 1
-  successAudioClip: {fileID: 8300000, guid: 18be2f0c79dee4b5e866d1a7856228df, type: 3}
+  successAudioClip: {fileID: 8300000, guid: 4a04828ff754b40e28805862e22f86f4, type: 3}
 --- !u!82 &1167520650
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4267,11 +4267,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb5809e2d9d64b8b9b7e6fc5d9df693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
+  playerCamera: {fileID: 7}
   pitchStartValue: 0.2
   pitchEndValue: 2
   pitchValueAfterGoal: 1
-  successAudioClip: {fileID: 8300000, guid: 18be2f0c79dee4b5e866d1a7856228df, type: 3}
+  successAudioClip: {fileID: 8300000, guid: 4a04828ff754b40e28805862e22f86f4, type: 3}
 --- !u!82 &1616077582
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5011,11 +5011,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb5809e2d9d64b8b9b7e6fc5d9df693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
+  playerCamera: {fileID: 7}
   pitchStartValue: 0.2
   pitchEndValue: 2
   pitchValueAfterGoal: 1
-  successAudioClip: {fileID: 8300000, guid: 18be2f0c79dee4b5e866d1a7856228df, type: 3}
+  successAudioClip: {fileID: 8300000, guid: 4a04828ff754b40e28805862e22f86f4, type: 3}
 --- !u!1 &1760895566
 GameObject:
   m_ObjectHideFlags: 0
@@ -5049,11 +5049,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb5809e2d9d64b8b9b7e6fc5d9df693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
+  playerCamera: {fileID: 7}
   pitchStartValue: 0.2
   pitchEndValue: 2
   pitchValueAfterGoal: 1
-  successAudioClip: {fileID: 8300000, guid: 18be2f0c79dee4b5e866d1a7856228df, type: 3}
+  successAudioClip: {fileID: 8300000, guid: 4a04828ff754b40e28805862e22f86f4, type: 3}
 --- !u!82 &1760895568
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5258,11 +5258,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb5809e2d9d64b8b9b7e6fc5d9df693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
+  playerCamera: {fileID: 7}
   pitchStartValue: 3
   pitchEndValue: 0.5
   pitchValueAfterGoal: 1
-  successAudioClip: {fileID: 8300000, guid: 18be2f0c79dee4b5e866d1a7856228df, type: 3}
+  successAudioClip: {fileID: 8300000, guid: 4a04828ff754b40e28805862e22f86f4, type: 3}
 --- !u!82 &1871128486
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5775,11 +5775,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb5809e2d9d64b8b9b7e6fc5d9df693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
-  pitchStartValue: 0.2
+  playerCamera: {fileID: 7}
+  pitchStartValue: -2
   pitchEndValue: 1
   pitchValueAfterGoal: 1
-  successAudioClip: {fileID: 8300000, guid: 18be2f0c79dee4b5e866d1a7856228df, type: 3}
+  successAudioClip: {fileID: 8300000, guid: 4a04828ff754b40e28805862e22f86f4, type: 3}
 --- !u!82 &2054439522
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5791,14 +5791,14 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 248799cb4acba48f7b3ee842a80f788c,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 7fd26f787ccca48f591d105e2857d6bd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e81f44cb3b0df4745bda4e0a397f2f62, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 0
+  SpatializePostEffects: 1
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1

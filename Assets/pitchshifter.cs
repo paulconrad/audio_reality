@@ -8,7 +8,7 @@ public class pitchshifter : MonoBehaviour
     public GameObject playerCamera;
     public float pitchStartValue;
     public float pitchEndValue;
-    public float pitchValueAfterGoal = 1.0f;
+    public float pitchValueAfterGoal;
     public AudioClip successAudioClip;
 
 
